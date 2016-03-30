@@ -1,0 +1,38 @@
+{
+  "name": "TheHartford-VideoQuiz",
+  "version": "0.1.0",
+  "description": "description",
+  "repository": {
+    "type": "svn",
+    "url": "http://svn.acsysinteractive.com/svn/Main/TheHartford/VideoQuiz/trunk/"
+  },
+  "license": "",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "grunt": "*",
+    "grunt-cache-bust": "*",
+    "grunt-codekit": "*",
+    "grunt-concurrent": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-compress": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-imagemin": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-requirejs": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-html-validation": "*",
+    "grunt-jslint": "*",
+    "grunt-mocha": "^0.4.13",
+    "grunt-rename": "*",
+    "grunt-text-replace": "*",
+    "load-grunt-config": "*",
+    "matchdep": "*",
+    "should": "^7.1.1",
+    "time-grunt": "*"
+  },
+  "dependencies": {
+    "grunt-cli": "*",
+    "async": "*"
+  }
+}
