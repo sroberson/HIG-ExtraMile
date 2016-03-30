@@ -1,0 +1,3 @@
+CSS files in this folder should NOT be edited as they are derived from the LESS compilation.
+
+They will always have a merge conflict at they compress down to one line which will have always changed.....
