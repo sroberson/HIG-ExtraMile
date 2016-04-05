@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.theprimacy.thehartford.extramile" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.theprimacy.thehartford.extramile" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>ExtraMile</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -8,6 +8,13 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
+    <icon src="icon.png"/>
+    <icon src="www/res/icon/ios/icon_57x57.png" gap:platform="ios" width="57" height="57"/>
+    <icon src="www/res/icon/ios/icon_72x72.png" gap:platform="ios" width="72" height="72"/>
+    <icon src="www/res/icon/ios/icon_114x114.jpg" gap:platform="ios" width="114" height="114"/>
+    <icon src="www/res/icon/ios/icon_144x144.png" gap:platform="ios" width="144" height="144"/>
+    <gap:splash src="www/res/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="1,536" height="2048"/>
+    <gap:splash src="www/res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768"/>
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
