@@ -2,15 +2,16 @@
 <widget id="com.theprimacy.thehartford.extramile" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>ExtraMile</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        An Apache Cordova application that wraps The Hartford Extra Mile website
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="scott.roberson@theprimacy.com" href="http://theprimacy.com">
+        Scott Roberson and the Primacy team
     </author>
     <content src="index.html" />
     <icon src="icon.png"/>
     <icon src="www/res/icon/ios/icon_57x57.png" gap:platform="ios" width="57" height="57"/>
     <icon src="www/res/icon/ios/icon_72x72.png" gap:platform="ios" width="72" height="72"/>
+    <icon src="www/res/icon/ios/icon_76x76.png" gap:platform="ios" width="76" height="76"/>
     <icon src="www/res/icon/ios/icon_114x114.jpg" gap:platform="ios" width="114" height="114"/>
     <icon src="www/res/icon/ios/icon_144x144.png" gap:platform="ios" width="144" height="144"/>
     <gap:splash src="www/res/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="1,536" height="2048"/>
