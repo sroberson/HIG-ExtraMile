@@ -1,18 +1,35 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.theprimacy.thehartford.extramile" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.theprimacy.thehartford.extramile" version="0.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>ExtraMile</name>
     <description>
-        An Apache Cordova application that wraps The Hartford Extra Mile website
+        An Apache Cordova application that wraps The Hartford Extra Mile website to work disconnected.
     </description>
     <author email="scott.roberson@theprimacy.com" href="http://theprimacy.com">
         Scott Roberson and the Primacy team
     </author>
     <content src="index.html" />
     <icon src="icon.png"/>
-    <icon src="www/res/icon/ios/Icon-Small-40.png" gap:platform="ios" width="40" height="40"/>
-    <icon src="www/res/icon/ios/Icon-76.png" gap:platform="ios" width="76" height="76"/>
-    <icon src="www/res/icon/ios/Icon-76@2x.png" gap:platform="ios" width="152" height="152"/>
-    <icon src="www/res/icon/ios/Icon-Small-40@2x.png" gap:platform="ios" width="80" height="80"/>
+
+    <!-- iPad -->
+    <icon src="www/res/icon/ios/Icon-76.png" platform="ios" width="76" height="76" />
+    <icon src="www/res/icon/ios/Icon-76@2x.png" platform="ios" width="152" height="152" />
+
+    <!-- Settings Icon -->
+    <icon src="www/res/icon/ios/icon-small.png" platform="ios" width="29" height="29" />
+    <icon src="www/res/icon/ios/icon-small@2x.png" platform="ios" width="58" height="58" />
+
+    <!-- Spotlight Icon -->
+    <icon src="www/res/icon/ios/icon-Small-40.png" platform="ios" width="40" height="40" />
+    <icon src="www/res/icon/ios/icon-Small-40@2x.png" platform="ios" width="80" height="80" />
+
+    <!-- iPad -->
+    <splash src="www/res/screen/ios/screen-iphone-portrait.png" platform="ios" width="768" height="1024" />
+    <splash src="www/res/screen/ios/screen-ipad-landscape.png" platform="ios" width="1024" height="768" />
+
+    <!-- Retina iPad -->
+    <splash src="www/res/screen/ios/screen-iphone-portrait@2x.png" platform="ios" width="1536" height="2048" />
+    <!--<splash src="www/res/screen/ios/screen-ipad-landscape@2x.png" platform="ios" width="2048" height="1536" />-->
+
     <plugin name="cordova-plugin-whitelist" spec="1.2.1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
