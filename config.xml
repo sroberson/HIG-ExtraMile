@@ -13,9 +13,7 @@
     <icon src="www/res/icon/ios/Icon-76.png" gap:platform="ios" width="76" height="76"/>
     <icon src="www/res/icon/ios/Icon-76@2x.png" gap:platform="ios" width="152" height="152"/>
     <icon src="www/res/icon/ios/Icon-Small-40@2x.png" gap:platform="ios" width="80" height="80"/>
-    <gap:splash src="www/res/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="1,536" height="2048"/>
-    <gap:splash src="www/res/screen/ios/screen-ipad-landscape.png" gap:platform="ios" width="1024" height="768"/>
-    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-whitelist" spec="1.2.1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
