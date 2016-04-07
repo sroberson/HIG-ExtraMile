@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.theprimacy.thehartford.extramile" version="0.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="SuppressesLongPressGesture" value="false" />
+    <preference name="Suppresses3DTouchGesture" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+    <name>ExtraMile</name>
+    <description>
+        An Apache Cordova application that wraps The Hartford Extra Mile website to work disconnected.
+    </description>
+    <author email="scott.roberson@theprimacy.com" href="http://theprimacy.com">
+        Scott Roberson and the Primacy team
+    </author>
+    <content src="index.html" />
+    <icon src="icon.png" />
+    <icon height="40" platform="ios" src="www/res/icon/ios/icon-40.png" width="40" />
+    <icon height="80" platform="ios" src="www/res/icon/ios/icon-40@2x.png" width="80" />
+    <icon height="50" platform="ios" src="www/res/icon/ios/icon-50.png" width="50" />
+    <icon height="100" platform="ios" src="www/res/icon/ios/icon-50@2x.png" width="100" />
+    <icon height="60" platform="ios" src="www/res/icon/ios/icon-60.png" width="60" />
+    <icon height="120" platform="ios" src="www/res/icon/ios/icon-60@2x.png" width="120" />
+    <icon height="72" platform="ios" src="www/res/icon/ios/icon-72.png" width="72" />
+    <icon height="144" platform="ios" src="www/res/icon/ios/icon-72@2x.png" width="144" />
+    <icon height="76" platform="ios" src="www/res/icon/ios/icon-76.png" width="76" />
+    <icon height="152" platform="ios" src="www/res/icon/ios/icon-76@2x.png" width="152" />
+    <icon height="29" platform="ios" src="www/res/icon/ios/icon-small.png" width="29" />
+    <icon height="58" platform="ios" src="www/res/icon/ios/icon-small@2x.png" width="58" />
+    <icon height="40" platform="ios" src="www/res/icon/ios/icon-Small-40.png" width="40" />
+    <icon height="80" platform="ios" src="www/res/icon/ios/icon-Small-40@2x.png" width="80" />
+    <splash height="1024" platform="ios" src="www/res/screen/ios/screen-iphone-portrait.png" width="768" />
+    <splash height="768" platform="ios" src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" />
+    <splash height="2048" platform="ios" src="www/res/screen/ios/screen-iphone-portrait@2x.png" width="1536" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+</widget>

@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "39a918ca-cbbe-7d42-adce-023881c566a0++9313",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "39a918ca-cbbe-7d42-adce-023881c566a0++9313" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "39a918ca-cbbe-7d42-adce-023881c566a0++9313" : 0,
+    "9652BD5EDD1C8BEA3216E7704F6AB70DC86A176B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F186E90F-339D-4407-AEE8-5A65789B9216",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "39a918ca-cbbe-7d42-adce-023881c566a0++9313" : "",
+    "9652BD5EDD1C8BEA3216E7704F6AB70DC86A176B" : "dist\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ExtraMile",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "platforms\/ios\/ExtraMile.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.acsysinteractive.com\/svn\/Main",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "39a918ca-cbbe-7d42-adce-023881c566a0++9313"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sroberson\/HIG-ExtraMile.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9652BD5EDD1C8BEA3216E7704F6AB70DC86A176B"
+    }
+  ]
+}
